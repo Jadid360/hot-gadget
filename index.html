@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Gadgets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <img src="./img/bg-1.png" alt="bg-1" class="header-image-1">
+        <img src=" ./img/bg-2.png" alt="bg-2" class="header-image-2">
+        <!-- Navbar -->
+        <div class="container ">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid d-flex ">
+                    <a class="navbar-brand flex-grow-1" href="#">
+                        <img class="logo" src="./img/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Banner -->
+        <div class="container banner-container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-md-5 product-info">
+                                <h2>Mackbook Pro</h2>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature.
+                                </p>
+                                <button class="btn btn-dark">Buy Now -></button>
+                            </div>
+
+                            <div class="col-md-6 product-image">
+                                <img src="./img/banner-products/product-1.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-md-5 product-info">
+                                <h2>Google Home</h2>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature.
+                                </p>
+                                <button class="btn btn-dark">Buy Now -></button>
+                            </div>
+
+                            <div class="col-md-6 product-image">
+                                <img src="./img/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-md-5 product-info">
+                                <h2>Great Speaker</h2>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature.
+                                </p>
+                                <button class="btn btn-dark">Buy Now -></button>
+                            </div>
+
+                            <div class="col-md-6 product-image">
+                                <img src="./img/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Smartphone -->
+    <section id="smartphone">
+        <div class="container">
+            <div class="product-cart-info d-flex justify-content-between">
+                <h2>Smartphone</h2>
+                <a href="#" class="link-warning">See all</a>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column align-items-center">
+                        <img src="./img/phone/phone-1.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Redmi K20</h5>
+                            <p class="card-text">Some quick example text to build on
+                                the card title.</p>
+                            <h5>$299</h5>
+                            <button type="button" class="btn btn-dark">Buy Now -></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column align-items-center">
+                        <img src="./img/phone/phone-2.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Reebok Pump </h5>
+                            <p class="card-text">Some quick example text to build on
+                                the card title.</p>
+                            <h5>$1099</h5>
+                            <button type="button" class="btn btn-dark">Buy Now -></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column align-items-center justify-content-center">
+                        <img src="./img/phone/phone-3.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center ">
+                            <h5 class="card-title">Galaxy Note 10+ </h5>
+                            <p class="card-text">Some quick example text to build on
+                                the card title.</p>
+                            <h5>$999</h5>
+                            <button type="button" class="btn btn-dark">Buy Now -></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Laptop -->
+    <section id="laptop">
+        <div class="container">
+            <div class="product-cart-info d-flex justify-content-between">
+                <h2>Laptop</h2>
+                <a href="#" class="link-warning">See all</a>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column align-items-center">
+                        <img src="./img/laptop/product-1.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Asus Vivobook</h5>
+                            <p class="card-text">Some quick example text to build on
+                                the card title.</p>
+                            <h5>$999</h5>
+                            <button type="button" class="btn btn-dark">Buy Now -></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column align-items-center">
+                        <img src="./img/laptop/product-2.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Razer Blade 15 </h5>
+                            <p class="card-text">Some quick example text to build on
+                                the card title.</p>
+                            <h5>$2599</h5>
+                            <button type="button" class="btn btn-dark">Buy Now -></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column align-items-center justify-content-center">
+                        <img src="./img/laptop/product-3.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center ">
+                            <h5 class="card-title">Xiaomi Mi Notebook Pro </h5>
+                            <p class="card-text">Some quick example text to build on
+                                the card title.</p>
+                            <h5>$999</h5>
+                            <button type="button" class="btn btn-dark">Buy Now -></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="categories">
+        <div class="container">
+            <div class="category-text">
+                <h2>Categories</h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-3  category-items ">
+                    <div class="card-group">
+                        <div
+                            class="category-card category-card-1 card d-flex align-items-center justify-content-center">
+                            <img src="./img/Categories/bag.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bag</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-group">
+                        <div
+                            class="category-card category-card-2 card d-flex align-items-center justify-content-center">
+                            <img src="./img/Categories/perfume.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Beauty</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-group">
+                        <div
+                            class="category-card category-card-3   card d-flex align-items-center justify-content-center">
+                            <img src="./img/Categories/shoe.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Shoe</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/Categories/pale-order.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <small>Hot Gadget &copy All Rights Reserved.</small>
+    </footer>
+
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
